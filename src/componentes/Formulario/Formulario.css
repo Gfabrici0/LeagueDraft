@@ -1,0 +1,30 @@
+.formulario {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 70px 0;
+    background-color: #181818;
+}
+
+.img-form {
+    max-width: 50%;
+    margin-bottom: 100px;
+    transition: transform 1s;
+}
+
+.img-form:hover {
+    transform: translateX(0) scale(1.01);
+}
+
+.formulario form {
+    max-width: 60%;
+    background-color: #49f0c2;
+    border-radius: 20px;
+    padding: 50px 40px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.formulario form h2 {
+    margin-top: 0;
+}

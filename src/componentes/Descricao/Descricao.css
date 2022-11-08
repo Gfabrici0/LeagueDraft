@@ -1,0 +1,11 @@
+.descricao {
+    background-color: #181818;
+    padding: 100px 0 50px;
+}
+
+.descricao p {
+    margin: 0 20%;
+    font-size: 24px;
+    color: #49f0c2;
+    text-align: justify;
+}

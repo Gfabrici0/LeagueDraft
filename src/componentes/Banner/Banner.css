@@ -1,0 +1,30 @@
+.banner-div{
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    background-color: #181818;
+}
+
+.banner-div h1 {
+    margin-left: 65px;
+    font-size: 28px;
+    color: #49f0c2;
+}
+
+.banner-nav {
+    margin-right: 40px;
+}
+
+.banner-nav a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 22px;
+    color: #49f0c2;;
+    padding: 10px;
+}
+
+.banner-nav a:hover {
+    background-color: rgba(110, 108, 108, 0.415);
+    border-radius: 5px;
+    padding: 10px;
+}

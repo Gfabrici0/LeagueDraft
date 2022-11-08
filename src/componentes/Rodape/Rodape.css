@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px 70px;
+    background-color: #49f0c2;
+}
+
+.footer .div-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer .div-link a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer .icone-footer {
+    color: #000;
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px 0 0;
+    transform: translateY(10px);
+}
+
+.footer .div-escrita {
+    color: #000;
+}
+
+.div-escrita i {
+    color: blue;
+}
